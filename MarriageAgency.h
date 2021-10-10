@@ -6,8 +6,8 @@
 
 class MarriageAgencyClients{
 public:
-    MarriageAgencyClients();
-    ~MarriageAgencyClients();
+    MarriageAgencyClients() = default;
+    ~MarriageAgencyClients() = default;
 
 private:
     std::string mCode;
