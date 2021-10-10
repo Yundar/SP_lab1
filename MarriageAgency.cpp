@@ -1,4 +1,3 @@
-#include <iostream>
 #include "MarriageAgency.h"
 
 using namespace std;

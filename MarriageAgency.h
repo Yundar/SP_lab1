@@ -3,8 +3,7 @@
 
 #include <string>
 
-
-class MarriageAgencyClients{
+class MarriageAgencyClients {
 public:
     MarriageAgencyClients() = default;
     ~MarriageAgencyClients() = default;
@@ -72,6 +71,7 @@ public:
     std::string getPartnerInfo();
 
     int calculateAge();
+    
 };
 
 #endif // MARRIAGEAGENCY_H
