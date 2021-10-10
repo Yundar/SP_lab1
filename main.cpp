@@ -24,7 +24,7 @@ int main(){
     newClientsStack.setPhoneNumber("0112233456");
     newClientsStack.setPassportData("FXA1234Q");
     newClientsStack.setPartnerInfo("Something about partner");
-    std::cout << newClientsStack.calculateAge() << "years old" << std::endl;
+    std::cout << newClientsStack.calculateAge() << " years old" << std::endl;
 
     newClientsHeap->setCode("AB1256");
     newClientsHeap->setPIB("Grach Yana Viktorivna");
@@ -45,7 +45,7 @@ int main(){
     newClientsHeap->setPhoneNumber("0667788943");
     newClientsHeap->setPassportData("FZC6544H");
     newClientsHeap->setPartnerInfo("Something about partner");
-    std::cout << newClientsHeap->calculateAge() << "years old" << std::endl;
+    std::cout << newClientsHeap->calculateAge() << " years old" << std::endl;
 
     delete newClientsHeap;
 
