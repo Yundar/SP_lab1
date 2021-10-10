@@ -1,5 +1,5 @@
 #include <iostream>
-#include "MarriageAgency.cpp"
+#include "MarriageAgency.h"
 
 int main(){
     MarriageAgencyClients newClientsStack;
