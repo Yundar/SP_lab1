@@ -46,4 +46,8 @@ int main(){
     newClientsHeap->setPassportData("FZC6544H");
     newClientsHeap->setPartnerInfo("Something about partner");
     std::cout << newClientsHeap->calculateAge() << "years old" << std::endl;
+
+    delete newClientsHeap;
+
+    return 0;
 }
