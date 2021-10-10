@@ -2,7 +2,7 @@ CC = g++
 
 CFLAGS  = -g -Wall
 
-SOURCES = main.cpp Radiostation.cpp
+SOURCES = main.cpp MarriageAgency.cpp
 
 all: 
 	$(CC) $(CFLAGS) $(SOURCES) -o main
